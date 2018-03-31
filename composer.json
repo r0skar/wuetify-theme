@@ -1,0 +1,7 @@
+{
+  "name": "r0skar/wuetify-theme",
+  "type": "wordpress-theme",
+  "require": {
+    "composer/installers": "v1.0.6"
+  }
+}
