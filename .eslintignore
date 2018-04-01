@@ -1,0 +1,6 @@
+node_modules/
+dist/
+lib/
+*.min.*
+*.html
+.tailwindrc.js

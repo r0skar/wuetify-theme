@@ -1,0 +1,22 @@
+/**
+ * This injects Tailwind's base styles, which is a combination of
+ * Normalize.css and some additional base styles.
+ *
+ * You can see the styles here:
+ * https://github.com/tailwindcss/tailwindcss/blob/master/css/preflight.css
+ */
+@import './libs/_tailwind-preflight.css';
+
+/**
+ * This injects your custom app styles.
+ */
+@import './components/_base.css';
+@import './components/_nprogress.css';
+
+/**
+ * This injects all of Tailwind's utility classes, generated based on your
+ * config file.
+ *
+ * It comes last, so it can override all other styles.
+ */
+@import './libs/_tailwind-utilities.css';

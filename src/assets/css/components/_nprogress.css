@@ -1,0 +1,7 @@
+@import 'nprogress/nprogress.css';
+
+#nprogress {
+  & .bar {
+    @apply .bg-primary;
+  }
+}
